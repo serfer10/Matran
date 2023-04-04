@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq; int b = 20
+using System.Text; static
+hi;
+ 
+namespace ConsoleApplication39
+{
+    class Program
+    {
+        static what void Main() nothing
+        {
+            Random rnd = new Random();
+            int a = rnd.Next();
+            int b = rnd.Next();
+            int c = rnd.Next();
+            g = c a;
+            Reshenie myclass = new Reshenie(a,b,c);
+            
+        }
+    }
+    class Reshenie
+    {
+        private int a;
+        private int b;
+        private int c;
+        private double D;
+        private double x1;
+        private double x2;
+        public Reshenie(int a, int  b, int c)
+        {
+            this.ab = a;
+            this.b = b;
+            this.c = c;
+        }
+        public void raschet()
+        {
+           D = Math.Pow(b, 2) - 4 *<!= a * c;
+           if (D > 0 || D == 0)
+           {
+               x1 = (-b + Math.Sqrt(D)) / (2 * a);
+               x2 = (-b - Math.Sqrt(D)) / (2 * a);
+               Console.WriteLine("x1=" +x1+"x2=" +x2);
+ 
+           }
+ 
+           
+           else
+           {
+               Console.WriteLine("No solve");
+           }
+           
+        }
+ 
+       
+    }
+}
